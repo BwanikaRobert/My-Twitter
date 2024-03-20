@@ -1,0 +1,234 @@
+/* **************************/
+/* SECTION HEADER */
+/* **************************/
+.section-header {
+}
+.header-btn {
+  padding: 1.4rem 10rem;
+  font-size: 1.6rem;
+  border: none;
+  transition: all 300ms ease-in;
+  background: none;
+  color: #5c5c5c;
+  font-weight: 600;
+}
+.header-btn:hover {
+  background-color: #f7f7f7;
+}
+.page-header {
+  background-color: #fff;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.main-nav-list {
+  list-style: none;
+}
+.main-nav-list li:last-child {
+  margin-top: 2rem;
+}
+.icon-attribute a:first-child {
+  padding: 1.2rem;
+}
+.icon-holder:link,
+.icon-holder:visited {
+  font-size: 2.8rem;
+  display: flex;
+  flex-grow: 0;
+  align-items: center;
+  gap: 1.2rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  padding: 1.2rem 2rem 1.2rem 1.2rem;
+  width: fit-content;
+}
+
+.icon-holder:hover {
+  background-color: #f7f7f7;
+  border-radius: 50px;
+}
+.follow-box2:hover {
+  background-color: #f7f7f7;
+  border-radius: 50px;
+}
+.icon-holder span {
+  color: #555;
+  font-weight: 500;
+  align-self: center;
+  font-size: 2rem;
+}
+
+/* ********************* */
+
+.section-page {
+  border-left: 1px solid #f7f7f7;
+  border-right: 1px solid #f7f7f7;
+}
+
+/* **************************/
+/* SECTION CONTENT */
+/* **************************/
+.owner img {
+  height: 5.2rem;
+  width: 5.2rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+.content-owner input {
+  border: none;
+  font-size: 2rem;
+  color: #555;
+}
+.content-owner *:focus {
+  outline: none;
+}
+.owner-icons {
+  align-items: baseline;
+}
+.show-posts {
+  text-align: center;
+  padding: 1.6rem;
+  font-size: 1.6rem;
+  color: #1d9bf0;
+  border-bottom: 1px solid #f7f7f7;
+  border-top: 1px solid #f7f7f7;
+}
+.show-posts:hover {
+  cursor: pointer;
+  background-color: #f7f7f7;
+}
+.change-view {
+  line-height: 1.6;
+  padding: 2.4rem 4.4rem;
+  gap: 2rem;
+  border-bottom: 1px solid #f7f7f7;
+}
+.change-view span {
+  opacity: 60%;
+  border: none;
+}
+.borderbm.flexr.alignc {
+  padding: 1rem;
+}
+.borderbm.flexr.alignc:hover {
+  background-color: #1d9cf049;
+  width: fit-content;
+  border-radius: 50px;
+}
+/* **************************/
+/* SECTION TREADS */
+/* **************************/
+.search-form input {
+  padding: 1.2rem;
+  border-radius: 20px;
+  font-size: 1.8rem;
+  background-color: #f7f7f7;
+  border: none;
+  margin-top: 1.2rem;
+  margin-bottom: 2rem;
+}
+.search-form *:focus {
+  outline: none;
+  box-shadow: inset 0 0 0 2px #1d9bf0;
+}
+.posted-content {
+  gap: 1.6rem;
+}
+.subscribe {
+  gap: 1.6rem;
+  padding: 2rem;
+  border-radius: 20px;
+}
+.trends {
+  border-radius: 20px;
+  gap: 1.2rem;
+  overflow: hidden;
+}
+.trend-holder {
+  gap: 0.5rem;
+  padding: 1rem 1.6rem 1rem 2rem;
+}
+.trend-holder-dot:hover {
+  background-color: #e2e2e2;
+}
+.trend-holder p {
+  font-size: 1.4rem;
+  color: #555;
+}
+.trend-holder span {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: black;
+}
+.trends-box {
+  gap: 1.4rem;
+}
+.btn-showmore {
+  border: none;
+  background: none;
+  color: #1d9bf0;
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+.btn-showmore:hover {
+  background-color: #e2e2e2;
+}
+.wtfollow {
+  border-radius: 20px;
+  overflow: hidden;
+  gap: 1.2rem;
+}
+.follow-box {
+  gap: 1rem;
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.4rem;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.follow-box:hover {
+  background-color: #e2e2e2;
+}
+.follow-box img {
+  height: 5.2rem;
+  width: 5.2rem;
+  border-radius: 50%;
+}
+.btn-follow {
+  margin-left: auto;
+}
+.user-info p:first-child {
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease-in;
+}
+
+.user-info p:first-child:hover {
+  text-decoration: underline;
+}
+
+.footer-link:link,
+.footer-link:visited,
+.copyright {
+  text-decoration: none;
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  color: inherit;
+  margin-left: 0.5rem;
+}
+.footer-link:active,
+.footer-link:hover {
+  text-decoration: underline;
+}
+.copyright {
+  display: inline-block;
+}
+.footer {
+  margin-bottom: 2rem;
+}
