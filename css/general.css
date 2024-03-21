@@ -75,8 +75,15 @@ body {
 .alignc {
   align-items: center;
 }
+.alignb {
+  align-items: baseline;
+}
 .borderbm {
   border-bottom: 1px solid #f7f7f7;
+}
+.month,
+.date {
+  font-size: 1.4rem;
 }
 /**************************/
 /* GENERAL REUSABLE COMPONENTS */
@@ -102,14 +109,24 @@ body {
   display: grid;
 }
 .grid--2-cols {
-  grid-template-columns: auto auto;
+  grid-template-columns: 0.08fr auto;
 }
 .grid-row {
   display: grid;
   grid-template-rows: auto auto auto auto auto;
 }
+.grid--3-row {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+}
 .back-color {
   background-color: #f7f7f7;
+}
+.profile-img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  margin-right: 1rem;
 }
 .heading-secondary {
   font-size: 2.4rem;
@@ -139,6 +156,7 @@ body {
 }
 .certified-icon {
   color: #1d9bf0;
+  font-size: 1.4rem;
 }
 .btn-post {
   border: none;
@@ -193,4 +211,24 @@ body {
 .btn-change-view {
   padding: 1.8rem 2rem;
   border-radius: 50px;
+}
+.reaction-icon {
+  font-size: 1.6rem;
+
+  padding: 0.1rem;
+}
+.reaction-icon ion-icon {
+  border-radius: 50%;
+  font-size: 1.4rem;
+  padding: 0.4rem;
+}
+
+.reaction-icon ion-icon:hover {
+  background-color: #60c0ff;
+  color: #1d9ff5;
+}
+
+.search-icon {
+  width: 2.4rem;
+  height: 2.4rem;
 }
