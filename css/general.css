@@ -232,3 +232,15 @@ body {
   width: 2.4rem;
   height: 2.4rem;
 }
+
+.section-header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+.section-post {
+  grid-column: 3;
+}
+.section-page {
+  grid-column: 2;
+}
